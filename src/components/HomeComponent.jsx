@@ -19,10 +19,10 @@ export const metadata = {
 
 export default function HomeComponent() {
   const typeText = [
-    "SOFTWARE DEVELOPER",
-    "WEB DESIGNER",
-    "WEB DEVELOPER",
-    "GRAPHIC DESIGNER",
+    "COPY WRITTER",
+    "PERSONAL AI",
+    "DEVELOPER",
+    "HELPER OF YOUR PROTAGONIST",
   ];
   return (
     <section className="home__component flex min-h-screen items-center justify-center py-[60px]  md:py-0">
@@ -54,7 +54,7 @@ export default function HomeComponent() {
                         <h2 className="text-[26px] font-bold sm:text-[32px] md:text-[50px] lg:text-[60px] ">
                           I am
                           <span className="ml-2 text-[#17b978]">
-                            Francis Briscoe
+                            AI Lead
                           </span>
                         </h2>
                         <h3 className="h-[60px] text-[20px] font-bold sm:text-[26px] md:text-[30px] lg:text-[40px]">
@@ -72,12 +72,12 @@ export default function HomeComponent() {
                   <div className="flex justify-center md:mt-4 md:px-[20px] lg:px-[50px]">
                     <div>
                       <p className="text-center text-sm	leading-[25px] sm:text-base sm:leading-[35px] ">
-                        Full Stack Web Developer and Web Application
-                        specializing in front-end and back-end development.
-                        Experienced with all stages of the development cycle for
-                        dynamic websites. Well versed in numerous programming
-                        languages JavaScript ES6 Nodejs, structured language
-                        HTML5 CSS3, Libraries REACT-JS With MongoDB Database.
+                      ChatGPT Assistente Inteligente, uma solução avançada para
+                      transformar a forma como sua empresa interage com clientes
+                      e gerencia informações. Utilizando a tecnologia de ponta
+                      do modelo ChatGPT, esse produto é capaz de compreender
+                      linguagem natural e fornecer respostas precisas e
+                      personalizadas em tempo real.
                       </p>
                     </div>
                   </div>
