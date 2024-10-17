@@ -8,9 +8,9 @@ export const metadata = {
 };
 const BlogPage = () => {
   return (
-    <MasterLayout>
+    
       <BlogComponent />
-    </MasterLayout>
+    
   );
 };
 
