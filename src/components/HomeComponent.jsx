@@ -13,7 +13,7 @@ import Link from "next/link";
 import Typed from "react-typed";
 
 export const metadata = {
-  title: "AILEAD || Home",
+  title: "AILEAD || Hom1",
   description: "AILEAD - Next JS Portfolio Template",
 };
 
