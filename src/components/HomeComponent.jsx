@@ -13,8 +13,8 @@ import Link from "next/link";
 import Typed from "react-typed";
 
 export const metadata = {
-  title: "NetGrid || Home",
-  description: "NetGrid - Next JS Portfolio Template",
+  title: "AILEAD || Home",
+  description: "AILEAD - Next JS Portfolio Template",
 };
 
 export default function HomeComponent() {
