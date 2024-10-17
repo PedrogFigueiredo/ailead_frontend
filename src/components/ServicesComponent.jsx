@@ -26,7 +26,7 @@ const ServicesComponent = () => {
                   <span className="text-[#17B978]">AI</span> Lead
                 </h2>
                 <h2 className="absolute top-[0px] text-[50px] font-extrabold opacity-5 sm:text-[65px] md:top-[-20px] md:text-[100px] lg:text-[120px]">
-                  BE Protagonist
+                  LIDER INTELIGENTE
                 </h2>
               </div>
             </Fade>
