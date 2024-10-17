@@ -13,7 +13,7 @@ import {
 import { Fade } from "react-reveal";
 
 export const metadata = {
-  title: "AILEAD || Hom1",
+  title: "AILEAD || Home",
   description: "AILEAD - Next JS Portfolio Template",
 };
 
