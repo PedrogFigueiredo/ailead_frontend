@@ -3,8 +3,8 @@ import MasterLayout from "@/masterLayout/MasterLayout";
 import AboutComponent from "@/components/AboutComponent";
 
 export const metadata = {
-  title: "NetGrid || About",
-  description: "NetGrid - Next JS Portfolio Template",
+  title: "AILEAD || About",
+  description: "AILEAD - A Inteligência do Líder",
 };
 const AboutPage = () => {
   return (
