@@ -18,12 +18,6 @@ export const metadata = {
 };
 
 export default function HomeComponent() {
-  const typeText = [
-    "COPY WRITTER",
-    "PERSONAL AI",
-    "DEVELOPER",
-    "HELPER OF YOUR PROTAGONIST",
-  ];
   return (
     <>
       <section className="service__component flex min-h-screen items-center justify-center">
