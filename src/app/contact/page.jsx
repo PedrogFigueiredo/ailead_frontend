@@ -3,8 +3,8 @@ import ContactComponent from "@/components/ContactComponent";
 import MasterLayout from "@/masterLayout/MasterLayout";
 
 export const metadata = {
-  title: "NetGrid || Contact",
-  description: "NetGrid - Next JS Portfolio Template",
+  title: "AILEAD || Contact",
+  description: "AILEAD - A Inteligência do Líder",
 };
 const ContactPage = () => {
   return (
