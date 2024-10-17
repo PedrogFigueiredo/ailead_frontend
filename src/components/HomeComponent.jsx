@@ -1,16 +1,16 @@
 "use client";
-
 import React from "react";
 import {
-  FaFacebookF,
-  FaGitAlt,
-  FaLinkedinIn,
-  FaSlack,
-  FaTwitter,
+  FaCcAmazonPay,
+  FaCommentDots,
+  FaGg,
+  FaLaptopCode,
+  FaLeaf,
+  FaLifeRing,
+  FaPalette,
+  FaRegCopy,
 } from "react-icons/fa";
-import Image from "next/image";
-import Link from "next/link";
-import Typed from "react-typed";
+import { Fade } from "react-reveal";
 
 export const metadata = {
   title: "AILEAD || Hom1",
