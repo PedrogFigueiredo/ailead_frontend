@@ -25,116 +25,178 @@ export default function HomeComponent() {
     "HELPER OF YOUR PROTAGONIST",
   ];
   return (
-    <section className="home__component flex min-h-screen items-center justify-center py-[60px]  md:py-0">
-      {/* ========= Home Main Container ========= */}
-      <div className="container mx-auhref px-5 md:px-10 lg:px-8">
-        <div className="home__content ">
-          <div className="grid grid-cols-12 gap-5">
-            <div className="col-span-12 mb-20 md:mt-16 md:mb-0">
-              <div className="flex items-center justify-center">
-                <div className="text__file">
-                  <div>
-                    <div className="mb-6 flex justify-center md:hidden">
-                      <div className="flex h-[150px] w-[150px] items-center justify-center overflow-hidden rounded-full ring-4 ring-[#373D4D] ring-offset-0">
-                        <div>
-                          <Image
-                            className="object-cover "
-                            src={"/Assets/Images/profile.png"}
-                            alt="NetGrid - Next JS Portfolio Template"
-                            width={500}
-                            height={500}
-                          />
-                        </div>
+    <>
+      <section className="service__component flex min-h-screen items-center justify-center">
+        {/* ========= Service Info Main Container ========= */}
+        <div>
+          {/* Heading Text */}
+          <div className="container mx-auto pt-[50px] md:pt-[80px]">
+            <Fade>
+              <div className="heading__text relative flex justify-center">
+                <h2 className="text-[36px] font-bold uppercase sm:text-[46px] md:text-[60px]">
+                  <span className="text-[#17B978]">AI</span> Lead
+                </h2>
+                <h2 className="absolute top-[0px] text-[50px] font-extrabold opacity-5 sm:text-[65px] md:top-[-20px] md:text-[100px] lg:text-[120px]">
+                  LIDER INTELIGENTE
+                </h2>
+              </div>
+            </Fade>
+          </div>
+          {/* Service Info */}
+          <div className="service__info container mx-auto mt-16 mb-32 px-5 md:mt-24 md:mb-20 md:px-14">
+            <Fade>
+              <div className="grid grid-cols-12 gap-6">
+                <div className="item col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
+                  <div className="flex justify-center  px-5 py-6 ">
+                    <div>
+                      <div className="icon__file mb-3 flex justify-center">
+                        <FaLaptopCode className="text-[40px]" />
+                      </div>
+                      <div className="heading__text flex justify-center">
+                        <h2 className="text-[25px] font-bold">Development</h2>
+                      </div>
+                      <div className="text mt-2 flex justify-center">
+                        <p className="text-center text-[15px]">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit. Architecto, culpa suscipit?
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <div>
-                    <div className="flex justify-center text-center">
-                      <div>
-                        <h2 className="text-[26px] font-bold sm:text-[32px] md:text-[50px] lg:text-[60px] ">
-                          I am
-                          <span className="ml-2 text-[#17b978]">
-                            AI Lead
-                          </span>
+                </div>
+                <div className="item col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
+                  <div className="flex justify-center  px-5 py-6 ">
+                    <div>
+                      <div className="icon__file mb-3 flex justify-center">
+                        <FaLifeRing className="text-[40px]" />
+                      </div>
+                      <div className="heading__text flex justify-center">
+                        <h2 className="text-[25px] font-bold">Design</h2>
+                      </div>
+                      <div className="text mt-2 flex justify-center">
+                        <p className="text-center text-[15px]">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit. Architecto, culpa suscipit?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="item col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
+                  <div className="flex justify-center  px-5 py-6 ">
+                    <div>
+                      <div className="icon__file mb-3 flex justify-center">
+                        <FaLeaf className="text-[40px]" />
+                      </div>
+                      <div className="heading__text flex justify-center">
+                        <h2 className="text-[25px] font-bold">UX Design</h2>
+                      </div>
+                      <div className="text mt-2 flex justify-center">
+                        <p className="text-center text-[15px]">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit. Architecto, culpa suscipit?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="item col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
+                  <div className="flex justify-center  px-5 py-6 ">
+                    <div>
+                      <div className="icon__file mb-3 flex justify-center">
+                        <FaPalette className="text-[40px]" />
+                      </div>
+                      <div className="heading__text flex justify-center">
+                        <h2 className="text-[25px] font-bold">
+                          Graphic Design
                         </h2>
-                        <h3 className="h-[60px] text-[20px] font-bold sm:text-[26px] md:text-[30px] lg:text-[40px]">
-                          <Typed
-                            strings={typeText}
-                            typeSpeed={120}
-                            backSpeed={100}
-                            cursorChar=""
-                            loop
-                          />
-                        </h3>
+                      </div>
+                      <div className="text mt-2 flex justify-center">
+                        <p className="text-center text-[15px]">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit. Architecto, culpa suscipit?
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <div className="flex justify-center md:mt-4 md:px-[20px] lg:px-[50px]">
+                </div>
+                <div className="item col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
+                  <div className="flex justify-center  px-5 py-6 ">
                     <div>
-                      <p className="text-center text-sm	leading-[25px] sm:text-base sm:leading-[35px] ">
-                      ChatGPT Assistente Inteligente, uma solução avançada para
-                      transformar a forma como sua empresa interage com clientes
-                      e gerencia informações. Utilizando a tecnologia de ponta
-                      do modelo ChatGPT, esse produto é capaz de compreender
-                      linguagem natural e fornecer respostas precisas e
-                      personalizadas em tempo real.
-                      </p>
-                    </div>
-                  </div>
-                  <div>
-                    <div className="icon__file mt-10 flex justify-center">
-                      <div className="flex gap-2">
-                        <Link
-                          href={"/"}
-                          className="inline-block rounded-full bg-[#dddddd31] p-3 duration-200 ease-in hover:bg-[#1877f2]"
-                        >
-                          <FaFacebookF className="text-[20px]" />
-                        </Link>
-                        <Link
-                          href={"/"}
-                          className="inline-block rounded-full bg-[#dddddd31] p-3 duration-200 ease-in hover:bg-[#1da1f2]"
-                        >
-                          <FaTwitter className="text-[20px]" />
-                        </Link>
-                        <Link
-                          href={"/"}
-                          className="inline-block rounded-full bg-[#dddddd31] p-3 duration-200 ease-in hover:bg-[#0077b5]"
-                        >
-                          <FaLinkedinIn className="text-[20px]" />
-                        </Link>
-                        <Link
-                          href={"/"}
-                          className="inline-block rounded-full bg-[#dddddd31] p-3 duration-200 ease-in hover:bg-[#333]"
-                        >
-                          <FaGitAlt className="text-[20px]" />
-                        </Link>
-                        <Link
-                          href={"/"}
-                          className="inline-block rounded-full bg-[#dddddd31] p-3 duration-200 ease-in hover:bg-[#541554]"
-                        >
-                          <FaSlack className="text-[20px]" />
-                        </Link>
+                      <div className="icon__file mb-3 flex justify-center">
+                        <FaCcAmazonPay className="text-[40px]" />
+                      </div>
+                      <div className="heading__text flex justify-center">
+                        <h2 className="text-[25px] font-bold">B2B Analysis</h2>
+                      </div>
+                      <div className="text mt-2 flex justify-center">
+                        <p className="text-center text-[15px]">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit. Architecto, culpa suscipit?
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <div className="download__resume mt-8 flex justify-center">
+                </div>
+                <div className="item col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
+                  <div className="flex justify-center  px-5 py-6 ">
                     <div>
-                      <a
-                        href="/Assets/pdf/Resume-of-Amit-Biswas-MERN.pdf"
-                        download
-                      >
-                        <button className="my__btn   text-base">
-                          Download CV
-                        </button>
-                      </a>
+                      <div className="icon__file mb-3 flex justify-center">
+                        <FaGg className="text-[40px]" />
+                      </div>
+                      <div className="heading__text flex justify-center">
+                        <h2 className="text-[25px] font-bold">SEO</h2>
+                      </div>
+                      <div className="text mt-2 flex justify-center">
+                        <p className="text-center text-[15px]">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit. Architecto, culpa suscipit?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="item col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
+                  <div className="flex justify-center  px-5 py-6 ">
+                    <div>
+                      <div className="icon__file mb-3 flex justify-center">
+                        <FaRegCopy className="text-[40px]" />
+                      </div>
+                      <div className="heading__text flex justify-center">
+                        <h2 className="text-[25px] font-bold">Copy Write</h2>
+                      </div>
+                      <div className="text mt-2 flex justify-center">
+                        <p className="text-center text-[15px]">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit. Architecto, culpa suscipit?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="item col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
+                  <div className="flex justify-center  px-5 py-6 ">
+                    <div>
+                      <div className="icon__file mb-3 flex justify-center">
+                        <FaCommentDots className="text-[40px]" />
+                      </div>
+                      <div className="heading__text flex justify-center">
+                        <h2 className="text-[25px] font-bold">Support</h2>
+                      </div>
+                      <div className="text mt-2 flex justify-center">
+                        <p className="text-center text-[15px]">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit. Architecto, culpa suscipit?
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </Fade>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
