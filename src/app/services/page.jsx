@@ -4,7 +4,7 @@ import MasterLayout from "@/masterLayout/MasterLayout";
 
 export const metadata = {
   title: "AILEAD || Service",
-  description: "AILEAD - Next JS Portfolio Template",
+  description: "AILEAD - A Inteligência do Líder",
 };
 const page = () => {
   return (
