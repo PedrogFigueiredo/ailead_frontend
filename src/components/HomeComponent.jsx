@@ -24,7 +24,7 @@ export default function HomeComponent() {
         {/* ========= Service Info Main Container ========= */}
         <div>
           {/* Heading Text */}
-          <div className="container mx-auto pt-[50px] md:pt-[80px]">
+          <div className="container mx-auto pt-[30px] md:pt-[40px]">
             <Fade>
               <div className="heading__text relative flex justify-center">
                 <h2 className="text-[36px] font-bold uppercase sm:text-[46px] md:text-[60px]">
