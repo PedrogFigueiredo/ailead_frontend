@@ -22,19 +22,19 @@ const PortfolioComponent = () => {
             </Fade>
           </div>
           {/* Login Box */}
-              <div class="login-container">
-                <div class="login-box">
+              <div className="login-container">
+                <div className="login-box">
                     <h2>Login</h2>
                     <form action="your-login-endpoint" method="POST">
-                        <div class="input-group">
+                        <div className="input-group">
                             <label for="username">Username</label>
                             <input type="text" id="username" name="username" required>
                         </div>
-                        <div class="input-group">
+                        <div className="input-group">
                             <label for="password">Password</label>
                             <input type="password" id="password" name="password" required>
                         </div>
-                        <div class="input-group">
+                        <div className="input-group">
                             <button type="submit" class="btn">Login</button>
                         </div>
                     </form>
