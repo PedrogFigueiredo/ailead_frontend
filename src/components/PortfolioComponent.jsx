@@ -6,7 +6,7 @@ const PortfolioComponent = () => {
   return (
     <>
       <section className="flex min-h-screen items-center justify-center">
-        <div className="container mx-auto p-6">
+        <div className=" mx-auto p-6">
             <Fade>
               <div className="heading__text relative flex justify-center">
                 <h2 className="text-[36px] font-bold uppercase sm:text-[46px] md:text-[60px]">
@@ -17,7 +17,7 @@ const PortfolioComponent = () => {
                 </h2>
               </div>
             </Fade>
-          <div className="bg-white shadow-md rounded-lg p-6 login-box">
+          <div className="login-box bg-white shadow-md rounded-lg p-6 ">
             <div className="mb-4">
               <h3 className="text-2xl font-semibold text-gray-800">Welcome Back!</h3>
               <p className="text-gray-600">Please login to your account.</p>
