@@ -1,10 +1,6 @@
 "use client";
 import React from "react";
-import LazyLoad from "react-lazyload";
-import { Fade } from "react-reveal";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import "react-tabs/style/react-tabs.css";
-import Portfolio from "../script/Portfolio";
+
 const PortfolioComponent = () => {
   return (
     <>
