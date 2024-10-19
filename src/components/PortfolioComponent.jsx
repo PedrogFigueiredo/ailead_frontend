@@ -17,7 +17,7 @@ const PortfolioComponent = () => {
                 </h2>
               </div>
             </Fade>
-          <div className="bg-white shadow-md rounded-lg p-6">
+          <div className="bg-white shadow-md rounded-lg p-6 login-box">
             <div className="mb-4">
               <h3 className="text-2xl font-semibold text-gray-800">Welcome Back!</h3>
               <p className="text-gray-600">Please login to your account.</p>
