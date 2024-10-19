@@ -12,6 +12,20 @@ const PortfolioComponent = () => {
         {/* ========= Personal Info Main Container ========= */}
         <div>
           {/* Heading Text */}
+
+          <div className="container mx-auto pt-[50px] md:pt-[80px]">
+            <Fade>
+              <div className="heading__text relative flex justify-center">
+                <h2 className="text-[36px] font-bold uppercase sm:text-[46px] md:text-[60px]">
+                  <span className="text-[#17B978]">AI</span> Lead
+                </h2>
+                <h2 className="absolute top-[0px] text-[50px] font-extrabold opacity-5 sm:text-[65px] md:top-[-20px] md:text-[100px] lg:text-[120px]">
+
+                </h2>
+              </div>
+            </Fade>
+          </div>
+          {/* Login Box */}
               <div class="login-container">
                 <div class="login-box">
                     <h2>Login</h2>
