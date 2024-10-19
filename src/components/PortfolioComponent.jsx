@@ -7,16 +7,16 @@ const PortfolioComponent = () => {
     <>
       <section className="flex min-h-screen items-center justify-center">
         <div className="container mx-auto p-6">
-          <Fade>
-            <div className="text-center mb-10">
-              <h2 className="text-4xl font-bold uppercase text-gray-800">
-                <span className="text-green-500">AI</span> Lead
-              </h2>
-              <h2 className="text-6xl font-extrabold text-gray-300 opacity-50 mt-2">
-                {/* Conteúdo adicional aqui */}
-              </h2>
-            </div>
-          </Fade>
+            <Fade>
+              <div className="heading__text relative flex justify-center">
+                <h2 className="text-[36px] font-bold uppercase sm:text-[46px] md:text-[60px]">
+                  <span className="text-[#17B978]">AI</span> Lead
+                </h2>
+                <h2 className="absolute top-[0px] text-[50px] font-extrabold opacity-5 sm:text-[65px] md:top-[-20px] md:text-[100px] lg:text-[120px]">
+
+                </h2>
+              </div>
+            </Fade>
           <div className="bg-white shadow-md rounded-lg p-6">
             <div className="mb-4">
               <h3 className="text-2xl font-semibold text-gray-800">Welcome Back!</h3>
