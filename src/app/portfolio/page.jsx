@@ -3,7 +3,7 @@ import PortfolioComponent from "@/components/PortfolioComponent";
 import MasterLayout from "@/masterLayout/MasterLayout";
 
 export const metadata = {
-  title: "AILEAD || Portfolio",
+  title: "AILEAD || Login",
   description: "AILEAD - A Inteligência do Líder",
 };
 const page = () => {
@@ -11,6 +11,7 @@ const page = () => {
     <MasterLayout>
       <PortfolioComponent />
     </MasterLayout>
+    
   );
 };
 
