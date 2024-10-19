@@ -1,5 +1,9 @@
 "use client";
 import React from "react";
+import ApiComponent from './ApiComponent';
+//import { FaRegCopy } from 'react-icons/fa';
+
+
 import {
   FaCcAmazonPay,
   FaCommentDots,
@@ -41,6 +45,7 @@ export default function HomeComponent() {
             <Fade>
               <div className="grid grid-cols-12 gap-6">
                 <div className="item col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
+                <ApiComponent />
                   <div className="flex justify-center  px-5 py-6 ">
                     <div>
                       <div className="icon__file mb-3 flex justify-center">
