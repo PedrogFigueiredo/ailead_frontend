@@ -8,7 +8,7 @@ import Portfolio from "../script/Portfolio";
 const PortfolioComponent = () => {
   return (
     <>
-      <section className="portfolio__component flex min-h-screen items-center justify-center">
+      <section className="flex min-h-screen items-center justify-center">
         {/* ========= Personal Info Main Container ========= */}
         <div>
           {/* Heading Text */}
